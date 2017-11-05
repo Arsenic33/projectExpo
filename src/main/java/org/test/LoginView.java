@@ -13,7 +13,7 @@ public class LoginView extends VerticalLayout implements View {
     @Override
     public void onInit() {
 
-        userName = new TextField("User Name");
+        userName = new TextField("Username");
         password = new PasswordField("Password");
         loginButton = new Button("Login");
 
@@ -25,7 +25,7 @@ public class LoginView extends VerticalLayout implements View {
                 User user = new User();
                 user.setUserName(userName.getValue());
                 user.setPassword(password.getValue());
-                if(user.getUserName().equals("admin")){
+                if(user.getUserName().equals("admin")&& user.getPassword().equals("1234")){
                     user.setUserType(User.ADMIN_USER_TYPE);
                 }
                 UI.getCurrent().getSession().setAttribute(MyUI.USER, user);

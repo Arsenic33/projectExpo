@@ -10,8 +10,7 @@ public class ExhibitionServiceImpl implements ExhibitionService
     @Override
     public List<Exhibition> getExhibitions() {
         List<Exhibition> exhibitionList = new ArrayList<>();
-        int index = 0;
-        for(; index < 10; index++){
+        for(int index = 0; index < 4; index++){
             Exhibition exhibition = new Exhibition();
             exhibition.setTitle("Expo " + index);
             exhibition.setDescription("A world's fair, world fair, world exposition, or universal exposition is a large international exhibition designed to showcase achievements of nations. These exhibitions vary in character and are held in different parts of the world.");

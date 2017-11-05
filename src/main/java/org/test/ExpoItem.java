@@ -24,7 +24,7 @@ public class ExpoItem extends VerticalLayout {
         description = new Label(exhibition.getDescription());
         description.setSizeFull();
         title.setSizeFull();
-        addComponents(title, description, viewButton);
+        addComponents(title, description,viewButton);
         setWidth("100%");
         addStyleName("expo-item");
     }

@@ -1,12 +1,15 @@
+org\test\StallItem.class
 org\test\core\User.class
-org\test\ExpoView$2.class
 org\test\core\Exhibition.class
+org\test\core\service\StallService.class
+org\test\core\Stall.class
 org\test\AdminView.class
 org\test\ExpoView.class
 org\test\LoginView.class
 org\test\UserView.class
 org\test\LoginView$1.class
 org\test\core\service\ExhibitionServiceImpl.class
+org\test\core\service\StallServiceImpl.class
 org\test\MyUI$MyUIServlet.class
 org\test\UserView$1.class
 org\test\ExpoView$1.class

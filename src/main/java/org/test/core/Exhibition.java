@@ -1,11 +1,36 @@
 package org.test.core;
 
+import java.awt.*;
+import java.sql.Time;
+import java.util.Date;
+
 public class Exhibition {
 
     private String id;
     private String title;
-    private String image;
+    private Image image;
     private String description;
+
+    public Date getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(Date startDate) {
+        this.startDate = startDate;
+    }
+
+    public Date getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
+    }
+
+    private Date startDate;
+    private Date endDate;
+    private String venue;
+    private Time time;
 
     public String getId() {
         return id;
@@ -23,11 +48,11 @@ public class Exhibition {
         this.title = title;
     }
 
-    public String getImage() {
+    public Image getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(Image image) {
         this.image = image;
     }
 
@@ -37,5 +62,21 @@ public class Exhibition {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getVenue() {
+        return venue;
+    }
+
+    public void setVenue(String venue) {
+        this.venue = venue;
+    }
+
+    public Time getTime() {
+        return time;
+    }
+
+    public void setTime(Time time) {
+        this.time = time;
     }
 }
