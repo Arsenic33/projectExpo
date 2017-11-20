@@ -2,7 +2,7 @@ package org.test;
 
 import com.vaadin.server.Sizeable;
 import com.vaadin.ui.*;
-import org.test.core.Stall;
+import org.test.core.domain.Stall;
 
 
 public class StallItem extends VerticalLayout {
@@ -24,6 +24,8 @@ public class StallItem extends VerticalLayout {
         description = new Label(stall.getDescription());
         description.setSizeFull();
         title.setSizeFull();
+
+
 
         GridLayout grid = new GridLayout(3, 3);
 

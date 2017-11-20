@@ -5,8 +5,9 @@ import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.UI;
-import org.test.core.User;
+import org.test.core.domain.User;
 import org.test.core.View;
+import org.test.core.ui.admin.AdminView;
 
 import javax.servlet.annotation.WebServlet;
 

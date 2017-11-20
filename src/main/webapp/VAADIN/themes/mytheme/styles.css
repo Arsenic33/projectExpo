@@ -14786,5 +14786,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .mytheme .v-window-header {
 	color: #00ace0;
-	size: 68px;
+}
+
+.mytheme .v-label-title {
+	font-size: 48px;
+	font-weight: bold;
 }

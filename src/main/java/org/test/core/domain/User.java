@@ -1,4 +1,4 @@
-package org.test.core;
+package org.test.core.domain;
 
 public class User {
 

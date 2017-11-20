@@ -4,8 +4,8 @@ import com.vaadin.ui.Button;
 import com.vaadin.ui.Image;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.VerticalLayout;
-import org.test.core.Exhibition;
-//import org.test.core.Exhibition;
+import org.test.core.domain.Exhibition;
+//import org.test.core.domain.Exhibition.Exhibition;
 
 public class ExpoItem extends VerticalLayout {
 

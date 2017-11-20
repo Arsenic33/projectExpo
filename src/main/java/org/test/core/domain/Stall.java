@@ -1,20 +1,20 @@
-package org.test.core;
+package org.test.core.domain;
 
-public class Stall {
+import com.vaadin.tapio.googlemaps.client.overlays.GoogleMapMarker;
+import org.test.core.dijkstra.Vertex;
+import org.test.core.dijkstra.VertexMapMarker;
 
-    private String id;
+public class Stall extends Vertex {
+
     private String title;
     private String image;
     private String description;
     private String venue;
     private double rate;
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
+    public Stall(VertexMapMarker vertexMapMarker) {
+        super(vertexMapMarker);
+        super.setType(Exhibition.VERTEX_TYPE.STALL);
     }
 
     public String getTitle() {
